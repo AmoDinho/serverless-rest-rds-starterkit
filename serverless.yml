@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: serverless-mysql-demo
+service: serverless-rest-rds-starterkit
 
 # Create an optimized package for our functions
 package:
@@ -35,15 +35,8 @@ provider:
       - subnet-xxxxxx
 
 functions:
-  hello:
-    handler: handler.hello
-    events:
-      - http:
-          path: hello
-          method: get
-
   addTeam:
-    handler: addTeam.addTeam
+    handler: src/services/addTeam.addTeam
     events:
       - http:
           path: addTeam
