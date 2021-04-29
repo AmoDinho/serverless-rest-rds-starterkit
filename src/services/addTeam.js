@@ -1,4 +1,4 @@
-import { teams } from "./models/team";
+import { teams } from "../models/team";
 export const addTeam = async (event, context) => {
   const { name } = JSON.parse(event.body);
 
