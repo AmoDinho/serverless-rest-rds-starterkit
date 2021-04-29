@@ -1,4 +1,4 @@
-# Serverless REST RDS StarterKit
+# Serverless REST RDS StarterKit 🧙‍♂️
 
 This starter kit is enables you to write Serverless Microservices connected to a RDS instance using Sequilze as the ORM. It is built ontop of the [serverless-Bundle](https://github.com/AnomalyInnovations/serverless-bundle)
 
